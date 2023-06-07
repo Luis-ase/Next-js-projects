@@ -13,9 +13,10 @@ export default function HomePage() {
   const autor3: String = `<a href="https://www.flaticon.es/iconos-gratis/javascript" title="javascript iconos">Javascript iconos creados por Freepik - Flaticon</a>`;
   return (
     <div>
-      <div className='p-4 w-full h-[25rem] bg-slate-400 flex-col gap-4 flex items-center justify-center'>
-        <p className='text-center'>Hola me llamo Michael Luis estos son algunos proyectos de html-css-js que eh realizado mientras estudiaba y/o practicaba</p>
-        <div className={`${ModelsCss.display} w-full h-52 `}>
+      <div className='p-4 w-full h-[20rem]  flex-col gap-4 flex items-center justify-center'>
+        <p className='text-center p-2'>Hola me llamo Michael Luis estos son algunos proyectos de html-css-js que eh realizado mientras estudiaba y/o practicaba</p>
+        <p className='text-center p-2'>Asi, este tambien es un proyecto de practica</p>
+        <div className={`${ModelsCss.display} w-full h-42 `}>
           <div className={`m-1 w-[4rem] h-[4rem] `}>
            <Image
            className='w-full h-full'
@@ -39,14 +40,12 @@ export default function HomePage() {
            </div>
         </div>
       </div>
-      <div className='m-[2rem] flex items-center justify-center flex-col gap-4'>
+      <div className='my-8 m-8 flex items-center justify-center flex-col gap-4'>
         <p>
           Proyectos:
         </p>
-        <button className="">
-          <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+        <button className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
             get Start
-          </span>
         </button>
       </div>
     </div>
