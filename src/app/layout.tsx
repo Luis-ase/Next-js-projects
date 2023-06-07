@@ -19,7 +19,9 @@ export default function RootLayout({
         <header className='flex  items-center justify-center p-2'>
           <Header/>
         </header>
+        <main>
         {children}
+        </main>
         </body>
     </html>
   )
