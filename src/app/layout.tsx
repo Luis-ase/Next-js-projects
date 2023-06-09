@@ -18,15 +18,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} `}>
         <header className='flex  items-center justify-center p-2'>
-          <Header/>
+          <Header />
         </header>
         <main>
-        {children}
+          {children}
         </main>
-        
-          <Footer/>
-        
-        </body>
+        <Footer />
+      </body>
     </html>
   )
 }
