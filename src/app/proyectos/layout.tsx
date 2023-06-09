@@ -4,7 +4,7 @@ export default function ProyectosLayout({
     children: React.ReactNode
   }) {
     return (
-      <section>
+      <section className="w-full h-[70vh] ">
         {children}
       </section>
     )

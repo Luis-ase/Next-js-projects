@@ -12,7 +12,7 @@ export default function HomePage() {
   const autor2 : String  = `<a href="https://www.flaticon.es/iconos-gratis/css" title="css iconos">Css iconos creados por Pixel perfect - Flaticon</a>`;
   const autor3 : String  = `<a href="https://www.flaticon.es/iconos-gratis/javascript" title="javascript iconos">Javascript iconos creados por Freepik - Flaticon</a>`;
   return (
-    <div>
+    <div className='h-[70vh]'>
       <div className='p-4 w-full h-[20rem]  flex-col gap-4 flex items-center justify-center'>
         <p className='text-center p-2'>Hola me llamo Michael Luis estos son algunos proyectos de html-css-js que eh realizado mientras estudiaba y/o practicaba</p>
         <p className='text-center p-2'>Asi, este tambien es un proyecto de practica</p>
@@ -40,7 +40,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className='my-8 m-8 flex items-center justify-center flex-col gap-4'>
+      <div className='m-8 flex items-center justify-center flex-col gap-4'>
         <p>
           Proyectos:
         </p>
