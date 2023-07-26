@@ -14,20 +14,15 @@ export default function ProyectosPage() {
             border bg-gray-900 ring-4 outline-none  border-gray-900   ring-gray-800
             text-white 
               font-medium  text-lg px-5 py-2.5 text-center mr-2 mb-2
-             h-20 my-8 rounded-2xl">
-                <p >
-                    Proyectos html-css-js
-                </p>
+            h-20 my-8 rounded-2xl">
+                <p>Proyectos html-css-js</p>
             </button>
             <button className="
-                
                 border bg-gray-900 ring-4 outline-none  border-gray-900   ring-gray-800
                 text-white 
                   font-medium  text-lg px-5 py-2.5 text-center mr-2 mb-2
                  h-20 my-8 rounded-2xl">
-                <p>
-                    Proyectos html-css
-                </p>
+                <p>Proyectos html-css</p>
             </button>
 
         </div>
