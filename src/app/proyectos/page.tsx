@@ -24,7 +24,6 @@ export default function ProyectosPage() {
                  h-20 my-8 rounded-2xl">
                 <p>Proyectos html-css</p>
             </button>
-
         </div>
     )
 }
